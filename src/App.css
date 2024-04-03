@@ -1,0 +1,154 @@
+*{
+  background-color: #23252C;
+  ;
+}
+.header-pic {
+  background-color: #F5F5F5;
+  width: 317px;
+  height: 317px;
+  top: 44px;
+  left: 116px;
+  gap: 0px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-self: center;
+
+}
+.hcontent{
+  background-color: #F5F5F5;
+  font-family: cursive;
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: right;
+  padding-right: 5px;
+}
+
+           @media screen and (min-width:1200px){
+          .skill-lst{
+                color: #F5F5F5;
+                 font-family: cursive;
+                 display: flex;
+                 width: 100%;
+
+                display: grid;
+                grid-auto-flow: column;
+                grid-column-gap: 10px;   
+             }
+}
+
+           
+@media screen and (max-width:920px){ 
+                    .skill-lst{
+                      color: #F5F5F5;
+                       font-family: cursive;
+                       display: flexbox;
+                       width: 100%;
+                      justify-content: space-around;
+                      
+                    }
+                    .skill-lst img{
+                      width: 50px;
+                      
+                    }
+                    .skill-lst li img{
+                           padding-bottom: 10px;
+                            display: flex;
+                            margin: 0 ;
+                            
+                                                        
+                    }
+                  
+}           
+ .skill-lst a{
+          color: inherit;
+          text-decoration: none;
+
+}
+.footer{
+      background-color: #161619;
+      padding: 10px;
+      border-radius: 0px 0px 10px 10px;
+      
+      justify-content: center;
+
+      display: grid;
+      grid-auto-flow: column;
+      grid-column-gap: 10px;
+}
+ .head{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #F5F5F5;
+  ;  
+ }
+
+ .abouts{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+      font-weight: 400;
+      line-height: 15.36px;
+      text-align: left;
+      color: #F5F5F5;
+
+ }
+
+ .name{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  line-height: 30.26px;
+  text-align: center;
+  color: #FFFFFF;
+  ;
+  
+ }
+ .skill{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 15.49px;
+        text-align: center;
+        color:#F5F5F5;
+  
+ }
+
+ .web{
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 15.36px;
+      text-align: center;
+      color: #F5F5F5;
+
+ }
+
+.link{
+  display: flex;
+  justify-content: center;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+  
+}
+
+.email{
+  border-style: none;
+  border-radius: 4px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.linkedn{
+  border-radius: 4px;
+  border-style: none;
+  color:#F5F5F5;
+  background-color:#5093E2;
+  font-size: 20px;
+  cursor: pointer;
+
+}
