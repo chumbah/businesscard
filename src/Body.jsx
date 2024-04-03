@@ -11,7 +11,7 @@ export default function Body(){
                 <p className="abouts">Expert front-end developer excelent in React, Javascript, HTML and CSS, crafting seamless user experiences with finesse.</p>
                 <ul>
                     <div className="skill-lst">
-                   <a href="www.react.com"><li>React<img src="./src/assets/react.png"></img></li></a>
+                   <a href="www.react.com"><li>React<img src="/js.png"></img></li></a>
                     <a href="www.javascript.com"><li>Javascript<img src="./src/assets/js.png"></img></li></a>
                     <a href="www.html.com"><li>Html & css<img src="./src/assets/hc.png"></img></li></a>
                     <a href="www.figma.com"><li>Figma designs<img src="./src/assets/figma.png"></img></li></a>
